@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+*,
+*:before,
+*:after  { box-sizing: inherit; }
+
+h1 {
+    color: #fff;
+    font-family: "FiraSans", cursive;
+    font-size: 2em;
+    font-size: 6vw;
+    line-height: 1.2;
+    margin: 0.5em 0 3em;
+    text-shadow: 1px 1px 1px #333;
+}
+div {
+    animation-name: move;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+
+    -moz-animation-name: move;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-delay: 0.5s;
+    -moz-animation-iteration-count: 2;
+    -moz-animation-direction: alternate;
+
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-direction: alternate;
+}
+.section {
+    background:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.7)
+            ),
+            url(bg-img.jpg);
+    line-height: 1.8em;
+    max-height: 3.6em;
+    margin-left: 100px;
+    padding: 10px 20px;
+}
+
+.text {
+    font-size: 20px;
+    color: darkorange;
+    text-transform: uppercase;
+    margin-top: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 15px;
+    margin-left: 40px;
+
+}
+
+.color2 {
+    color: aqua;
+}
+
+.color {
+    color: aliceblue;
+    margin-left: 40px;
+}
+section {
+
+}
+
+.color3 {
+    color: darkgrey;
+}
+.size {
+    overflow: hidden;
+    padding: 5px;
+}
